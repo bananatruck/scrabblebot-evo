@@ -1,0 +1,12 @@
+node_modules/
+runs/
+*.log
+# Bot credentials: never commit these.
+live/.token-*
+.env
+# Downloaded or regenerated from the live server.
+data/wordlist.txt
+data/field.json
+data/field.prev.json
+data/live.json
+*.tmp
